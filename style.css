@@ -1,0 +1,151 @@
+* {
+  /* border: 1px solid red; */
+  font-size: 1.05em;
+}
+.logo {
+  display: static;
+}
+nav {
+  position: sticky;
+  top: 0em;
+  background-color: white;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-weight: 250;
+  margin: 0;
+}
+nav ul {
+  padding-left: 4em;
+}
+nav li {
+  list-style-type: none;
+  padding: 0.5em 1em 0 1em;
+  display: inline-block;
+}
+nav img {
+  position: absolute;
+  left: 2em;
+  top: 20px;
+}
+nav div {
+  margin: 0.5em;
+  border: 1px solid rgb(87, 87, 87);
+  border-radius: 4px;
+}
+nav i {
+  position: relative;
+  left: 7px;
+  top: 0px;
+  color: #b3b2b3;
+  font-weight: 250;
+}
+nav input {
+  border: none;
+  padding: 0.6em;
+  font-size: 1.02em;
+  font-weight: 250;
+  color: #b3b2b3;
+}
+body {
+  font-family: system-ui;
+  margin: auto;
+  max-width: 1600px;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+p {
+  color: rgb(87, 87, 87);
+}
+h1 {
+  font-size: 2.25em;
+  font-weight: 550;
+}
+header img {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+}
+header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+header p {
+  width: 700px;
+  margin: auto;
+  font-weight: 250;
+}
+header button {
+  margin: 1em;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(87, 87, 87);
+  border-radius: 4px;
+  color: rgb(87, 87, 87);
+  font-size: 0.9em;
+  color: #6b6b6b;
+  font-weight: 250;
+}
+
+.get-started {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.get-started img {
+  width: 60%;
+  max-height: 400px;
+}
+.get-started div {
+  padding: 3em;
+}
+.get-started h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.get-started p {
+  font-weight: 250;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.container {
+  margin: 1em;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #e9fbfa;
+  box-shadow: 5px 5px 1px #d3d2f8;
+  border: 1px solid rgb(87, 87, 87);
+}
+.container img {
+  position: relative;
+  left: center;
+  width: 320px;
+  /* height: 100%; */
+  margin: auto;
+}
+.container div {
+  gap: 1em;
+  background-color: white;
+  padding: 0.7em;
+  border-top: 0.5px solid rgb(210, 207, 207);
+}
+.container h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.container p {
+  font-size: 0.8em;
+  color: #6b6b6b;
+  font-weight: 250;
+}
